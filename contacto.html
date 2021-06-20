@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+	<title>Siento1Series | Contacto</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/csslogin.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="icon" href="img/titulo-1.jpg">
+    <!-- incorporamos las jquery y validadores -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script language="javascript" type="text/javascript"
+    src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js">
+  </script>
+  <script language="javascript" type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js">
+</script>
+  <script src="js/validadorContacto.js"></script>
+</head>
+<!--Coded with love by Mutiullah Samim-->
+<body">
+  
+    <header class="header">
+      <nav class="navbar navbar-expand-md navbar-dark absolute top">
+        
+        <a href="v1.html"><img src="img/titulo-nav.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="v1.html">Inicio <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contacto.html">Contáctanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html" tabindex="-1" aria-disabled="true">Nosotros</a>
+              </li>
+            </ul>
+            <ul >
+              <form class="form-inline mt-2 mt-md-0">
+                
+                <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">🔍</button>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="iniciosesion.html" tabindex="-1" aria-disabled="true">Iniciar Sesión</a>
+                </li>
+              </form>
+            </ul>
+        </nav>
+        
+    </header>
+	<div class="container h-100 fuenteBlanca">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container">
+						<a href="v1.html"><img src="img/titulo-1.jpg" class="brand_logo" alt="Logo"></a>
+					</div>
+				</div>
+                <br>
+                <div style="text-align: center;">
+                    Dejanos tu mensaje y lo leeremos con mucho cariño
+                </div>
+				<div class="d-flex justify-content-center form_container">
+					<form id="formularioContacto" action="" method="post" onsubmit="return ValidadorContacto();">
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-user"></i></span>
+							</div>
+							<input type="text" name="Nombre" class="form-control input_user" value="" id="Nombre" placeholder="Nombre">
+						</div>
+						<div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+							</div>
+							<input type="email" name="Email" class="form-control input_user" value="" id="Email" placeholder="Correo">
+						</div>
+            <div class="input-group mb-2">
+							<div class="input-group-append">
+							</div>
+							<input type="text" name="Mensaje" class="form-control input_pass" value="" id="Mensaje" placeholder="Escribe aqui tu mensaje">
+						</div>
+							<div class="d-flex justify-content-center mt-3 login_container">
+                <input type="submit" value="Enviar" class="btn login_btn" name="btnGuardar">
+				   </div>
+          <br>
+          <div style="text-align: center;">
+            <p>Muchas gracias por compartir tus ideas, valoraciones y opiniones con el equipo de Siento1Series ❤️</p>
+          </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    <footer class="text-center text-lg-start " style="background-color: black;">
+        <div class="container p-4">
+          <div class="row footer">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 style="color: hsl(0, 1%, 50%);">SIENTO1SERIES</h5>
+              <br> 
+              <p>
+                En Siento1Series somos tan afionados a las series como tú, por eso estamos tan comprometido con ustedes a mantener este sitio web lo mas actualizado posbile
+                contacto con las últimas series de las principales plataformas de streaming.
+              </p>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 style="color: hsl(0, 1%, 50%);text-align: right;" >Visita</h5>
+              <br>
+      
+              <ul class="list-unstyled" style="margin-left : 152px; text-align: right;">
+                <li>
+                  <a href="v1.html" style="color: #5a5a5a;">Inicio</a>
+                </li>
+                <li>
+                  <a href="contacto.html" style="color: #5a5a5a;">Contactanos</a>
+                </li>
+                <li>
+                  <a href="nosotros.html" style="color: #5a5a5a;">Nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      
+        <ul class="socials">
+            <li><a href="#" class="icon-facebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="icon-twitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="icon-google-plus" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          ©️ 2021 Copyright
+        </div>
+          
+  </footer>
+  
+</body>
+</html>

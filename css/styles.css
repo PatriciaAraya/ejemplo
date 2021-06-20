@@ -1,0 +1,16 @@
+.barra-buscar {
+  padding-left: 800px;
+  padding-right: 10px;
+  
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body::before{
+    filter: blur(6px);
+}
